@@ -30,8 +30,7 @@ $colorPalette2: rgba(241, 29, 91, .7);
     font-family: 'Gill Sans', sans-serif;
     padding: 20px 0;
   }
-
-  ul {
+  .linksList {
     margin: 0 auto;
     list-style-type: none;
     padding: 0;
@@ -62,4 +61,12 @@ $colorPalette2: rgba(241, 29, 91, .7);
 
 .nav a.active {
   color: $colorPalette1;
+}
+
+.contactsList{
+  margin: auto auto;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
