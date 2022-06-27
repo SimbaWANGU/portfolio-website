@@ -4,14 +4,13 @@ import '../styles/navbar.scss';
 import HomeIcon from '@mui/icons-material/Home';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import ContactPageRoundedIcon from '@mui/icons-material/ContactPageRounded';
-import Me from '../assets/profilepic.png';
+import Me from '../assets/logo.png';
 
 function Navbar() {
   return (
     <>
       <div className="nav">
         <img src={Me} alt="myImage" />
-        <h2>Simba Wangulu</h2>
         <ul>
           <li>
             <NavLink

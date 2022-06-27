@@ -7,7 +7,8 @@ function Landing() {
     <div className="landing animate">
       <Navbar />
       <div className="content">
-        <h1>Hi, I'm Simba</h1>
+        <h6>Hi, my name is</h6>
+        <h1>Simba</h1>
         <p>I am a Fullstack Web Developer </p>
       </div>
     </div>
