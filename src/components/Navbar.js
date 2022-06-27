@@ -11,6 +11,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import Me from '../assets/logo.png';
 import Landing from '../pages/Landing';
+import About from '../pages/About';
+import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
 
 function Navbar() {
   return (
@@ -80,9 +83,9 @@ function Navbar() {
       </div>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/about" />
-        <Route path="/projects" />
-        <Route path="/contactme" />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contactme" element={<Contact />} />
       </Routes>
     </>
   );
