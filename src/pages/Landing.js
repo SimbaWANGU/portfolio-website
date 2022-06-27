@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import '../styles/landing.scss';
 import Navbar from '../components/Navbar';
@@ -7,9 +8,10 @@ function Landing() {
     <div className="landing animate">
       <Navbar />
       <div className="content">
-        <h6>Hi, my name is</h6>
+        <p>Hi, my name is</p>
         <h1>Simba</h1>
-        <p>I am a Fullstack Web Developer </p>
+        <h6>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me. </h6>
+        <button type="button">See Projects</button>
       </div>
     </div>
   );
