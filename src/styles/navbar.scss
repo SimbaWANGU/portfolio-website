@@ -3,7 +3,7 @@
 $textColor: rgba(242, 239, 234, 1);
 $backgroundColor: rgba(5, 6, 9, 1);
 $colorPalette1: rgba(241, 29, 91, 1);
-$colorPalette2: rgba(241, 29, 91, .7);
+$colorPalette2: rgba(241, 29, 91, 0.7);
 
 .nav {
   display: flex;
@@ -12,9 +12,9 @@ $colorPalette2: rgba(241, 29, 91, .7);
   margin: 0;
   padding: 10px 0;
   background-color: $backgroundColor;
-  box-shadow: 3px 4px 3px 0px rgba(0,0,0,0.35);
-  -webkit-box-shadow: 3px 4px 3px 0px rgba(0,0,0,0.35);
-  -moz-box-shadow: 3px 4px 3px 0px rgba(0,0,0,0.35);
+  box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
 
   img {
     height: 20%;
@@ -30,6 +30,7 @@ $colorPalette2: rgba(241, 29, 91, .7);
     font-family: 'Gill Sans', sans-serif;
     padding: 20px 0;
   }
+
   .linksList {
     margin: 0 auto;
     list-style-type: none;
@@ -63,7 +64,7 @@ $colorPalette2: rgba(241, 29, 91, .7);
   color: $colorPalette1;
 }
 
-.contactsList{
+.contactsList {
   margin: auto auto;
   list-style-type: none;
   padding: 0;
