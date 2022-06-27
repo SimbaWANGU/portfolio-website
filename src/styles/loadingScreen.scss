@@ -1,0 +1,24 @@
+.loader {
+  height: 20vh;
+  width: 20%;
+  padding: 1em;
+  margin: 30vh auto;
+  display: flex;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+}
+
+.animate {
+  animation-duration: 1s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

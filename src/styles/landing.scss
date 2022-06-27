@@ -1,0 +1,93 @@
+@import url('http://fonts.cdnfonts.com/css/gill-sans');
+
+$colorPalette1: rgba(241, 29, 91, 1);
+$colorPalette2: rgba(241, 29, 91, 0.8);
+$text: rgba(2, 2, 2, 1);
+$textColor: rgba(242, 239, 234, 1);
+
+.landing {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  background-color: $textColor;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0 auto 10vw;
+  text-align: end;
+
+  p {
+    font-family: 'Gill Sans', sans-serif;
+    padding: 0;
+    margin: 0 1vw;
+    letter-spacing: 0.3rem;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 68px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 500;
+    margin: 0 1vw;
+    color: $colorPalette1;
+    padding: 0;
+    line-height: 68px;
+    letter-spacing: 0.3rem;
+  }
+
+  h6 {
+    width: 50vw;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 300;
+    margin: 0 1vw;
+    padding: 0;
+    letter-spacing: 0.3rem;
+    background: #121fcf;
+    background: linear-gradient(to left, $text 0%, $colorPalette1 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  button {
+    margin: auto 10px auto auto;
+    padding: 2%;
+    background-color: $colorPalette2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 0.3rem;
+    box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+  }
+
+  button:hover {
+    background-color: $colorPalette1;
+    transform: scale(1.05);
+    transition: 0.4s ease-out;
+  }
+
+  button:active {
+    transform: scale(0.99);
+    transition: 0.4s ease-in;
+  }
+}
+
+.animate {
+  animation-duration: 2s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

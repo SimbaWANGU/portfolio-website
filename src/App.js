@@ -1,25 +1,25 @@
-import './App.css';
+import { useEffect, useState } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import './App.scss';
+import LoadingScreen from './components/LoadingScreen';
+import Navbar from './components/Navbar';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 4000);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        {loading === false ? (
+          <Navbar />
+        ) : (
+          <LoadingScreen />
+        )}
+      </BrowserRouter>
     </div>
   );
 }

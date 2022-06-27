@@ -1,0 +1,73 @@
+@import url('http://fonts.cdnfonts.com/css/gill-sans');
+
+$textColor: rgba(242, 239, 234, 1);
+$backgroundColor: rgba(5, 6, 9, 1);
+$colorPalette1: rgba(241, 29, 91, 1);
+$colorPalette2: rgba(241, 29, 91, 0.7);
+
+.nav {
+  display: flex;
+  width: 15vw;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px 0;
+  background-color: $backgroundColor;
+  box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+
+  img {
+    height: 20%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-weight: 300;
+    color: $colorPalette1;
+    font-family: 'Gill Sans', sans-serif;
+    padding: 20px 0;
+  }
+
+  .linksList {
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.nav a {
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: $colorPalette2;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0.1rem;
+
+  .navIcon {
+    margin: auto 10px;
+  }
+
+  p {
+    margin: auto 10px;
+  }
+}
+
+.nav a.active {
+  color: $colorPalette1;
+}
+
+.contactsList {
+  margin: auto auto;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
