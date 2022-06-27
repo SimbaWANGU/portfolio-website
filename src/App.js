@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.scss';
 import LoadingScreen from './components/LoadingScreen';
+import Navbar from './components/Navbar';
 import Landing from './pages/Landing';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         {loading === false ? (
-          <Landing />
+          <Navbar />
         ) : (
           <LoadingScreen />
         )}

@@ -10,6 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import Me from '../assets/logo.png';
+import Landing from '../pages/Landing';
 
 function Navbar() {
   return (
@@ -71,17 +72,18 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="nkedin.com/in/simba-wangulu/">
+            <a href="https://docs.google.com/document/d/19ND9A9yW8Osz6TcR5muYF3BH1KzVT4JbTORv5y04q6M/edit?usp=sharing">
               <ListAltIcon />
             </a>
           </li>
         </ul>
-        <Routes>
-          <Route path="/" />
-          <Route path="/projects" />
-          <Route path="/contactme" />
-        </Routes>
       </div>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" />
+        <Route path="/projects" />
+        <Route path="/contactme" />
+      </Routes>
     </>
   );
 }
