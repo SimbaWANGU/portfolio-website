@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink, Routes, Route } from 'react-router-dom';
 import '../styles/navbar.scss';
+import HomeIcon from '@mui/icons-material/Home';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import ContactPageRoundedIcon from '@mui/icons-material/ContactPageRounded';
 import Me from '../assets/profilepic.png';
 
 function Navbar() {
@@ -15,7 +18,8 @@ function Navbar() {
               to="/"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
-              Home
+              <HomeIcon className="navIcon" />
+              <p>Home</p>
             </NavLink>
           </li>
           <li>
@@ -23,7 +27,8 @@ function Navbar() {
               to="/projects"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
-              Projects
+              <AssignmentIcon className="navIcon" />
+              <p>Projects</p>
             </NavLink>
           </li>
           <li>
@@ -31,7 +36,8 @@ function Navbar() {
               to="/profile"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
-              Contact
+              <ContactPageRoundedIcon className="navIcon" />
+              <p>Contact</p>
             </NavLink>
           </li>
         </ul>
