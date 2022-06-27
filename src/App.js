@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="App">
       <BrowserRouter>
         {loading === false ? (
           <Landing />
@@ -20,7 +20,7 @@ function App() {
           <LoadingScreen />
         )}
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

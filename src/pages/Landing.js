@@ -6,6 +6,10 @@ function Landing() {
   return (
     <div className="landing animate">
       <Navbar />
+      <div className="content">
+        <h1>Hi, I'm Simba</h1>
+        <p>I am a Fullstack Web Developer </p>
+      </div>
     </div>
   );
 }
