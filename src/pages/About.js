@@ -55,6 +55,50 @@ function About() {
           </li>
         </ul>
       </div>
+      <div className="techStack">
+        <div className="div1">
+          <img src={HTML} alt="" />
+        </div>
+        <div className="div2">
+          <img src={CSS} alt="" />
+        </div>
+        <div className="div3">
+          <img src={Bootstrap} alt="" />
+        </div>
+        <div className="div4">
+          <img src={Tailwind} alt="" />
+        </div>
+        <div className="div5">
+          <img src={Sass} alt="" />
+        </div>
+        <div className="div6">
+          <img src={JavaScript} alt="" />
+        </div>
+        <div className="div7">
+          <img src={ReactIcon} alt="" />
+        </div>
+        <div className="div8">
+          <img src={Redux} alt="" />
+        </div>
+        <div className="div9">
+          <img src={Ruby} alt="" />
+        </div>
+        <div className="div10">
+          <img src={ROR} alt="" />
+        </div>
+        <div className="div11">
+          <img src={SQLIcon} alt="" />
+        </div>
+        <div className="div12">
+          <img src={Git} alt="" />
+        </div>
+        <div className="div13">
+          <img src={GitHub} alt="" />
+        </div>
+        <div className="div14">
+          <img src={VScode} alt="" />
+        </div>
+      </div>
     </div>
   );
 }
