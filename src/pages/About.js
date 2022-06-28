@@ -21,7 +21,7 @@ import VScode from '../assets/vscode.png';
 
 function About() {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe animate">
       <div className="aboutMeContent">
         <h1>About Me</h1>
         <ul>
@@ -58,7 +58,7 @@ function About() {
         </ul>
       </div>
       <div className="techStack">
-        <div className="div1">
+        <div className="div1 animate glow delay-1">
           <Tooltip
             title="HTML"
             placement="top"
@@ -68,7 +68,7 @@ function About() {
             <img src={HTML} alt="HTML" />
           </Tooltip>
         </div>
-        <div className="div2">
+        <div className="div2 animate glow delay-2">
           <Tooltip
             title="CSS"
             placement="top"
@@ -78,7 +78,7 @@ function About() {
             <img src={CSS} alt="CSS" />
           </Tooltip>
         </div>
-        <div className="div3">
+        <div className="div3 animate glow delay-3">
           <Tooltip
             title="Bootstrap"
             placement="top"
@@ -88,7 +88,7 @@ function About() {
             <img src={Bootstrap} alt="Bootstrap" />
           </Tooltip>
         </div>
-        <div className="div4">
+        <div className="div4 animate glow delay-4">
           <Tooltip
             title="Tailwind"
             placement="top"
@@ -98,7 +98,7 @@ function About() {
             <img src={Tailwind} alt="Tailwind" />
           </Tooltip>
         </div>
-        <div className="div5">
+        <div className="div5 animate glow delay-5">
           <Tooltip
             title="Sass"
             placement="top"
@@ -108,7 +108,7 @@ function About() {
             <img src={Sass} alt="Sass" />
           </Tooltip>
         </div>
-        <div className="div6">
+        <div className="div6 animate glow delay-6">
           <Tooltip
             title="JavaScript"
             placement="top"
@@ -118,7 +118,7 @@ function About() {
             <img src={JavaScript} alt="JavaScript" />
           </Tooltip>
         </div>
-        <div className="div7">
+        <div className="div7 animate glow delay-7">
           <Tooltip
             title="React"
             placement="top"
@@ -128,7 +128,7 @@ function About() {
             <img src={ReactIcon} alt="React" />
           </Tooltip>
         </div>
-        <div className="div8">
+        <div className="div8 animate glow delay-8">
           <Tooltip
             title="Redux"
             placement="top"
@@ -138,7 +138,7 @@ function About() {
             <img src={Redux} alt="Redux" />
           </Tooltip>
         </div>
-        <div className="div9">
+        <div className="div9 animate glow delay-9">
           <Tooltip
             title="Ruby"
             placement="top"
@@ -148,7 +148,7 @@ function About() {
             <img src={Ruby} alt="Ruby" />
           </Tooltip>
         </div>
-        <div className="div10">
+        <div className="div10 animate glow delay-10">
           <Tooltip
             title="Ruby on Rails"
             placement="top"
@@ -158,7 +158,7 @@ function About() {
             <img src={ROR} alt="Ruby on Rails" />
           </Tooltip>
         </div>
-        <div className="div11">
+        <div className="div11 animate glow delay-11">
           <Tooltip
             title="SQL"
             placement="top"
@@ -168,7 +168,7 @@ function About() {
             <img src={SQLIcon} alt="SQL" />
           </Tooltip>
         </div>
-        <div className="div12">
+        <div className="div12 animate glow delay-12">
           <Tooltip
             title="Resume"
             placement="top"
@@ -178,7 +178,7 @@ function About() {
             <img src={Git} alt="Git" />
           </Tooltip>
         </div>
-        <div className="div13">
+        <div className="div13 animate glow delay-13">
           <Tooltip
             title="Github"
             placement="top"
@@ -188,7 +188,7 @@ function About() {
             <img src={GitHub} alt="Github" />
           </Tooltip>
         </div>
-        <div className="div14">
+        <div className="div14 animate glow delay-14">
           <Tooltip
             title="Visual Studio"
             placement="top"
@@ -198,7 +198,7 @@ function About() {
             <img src={VScode} alt="Visual Studio" />
           </Tooltip>
         </div>
-        <div className="div15" />
+        <div className="div15 animate glow delay-15" />
       </div>
     </div>
   );
