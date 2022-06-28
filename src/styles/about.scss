@@ -14,7 +14,7 @@ $colorPalette2: rgba(200, 20, 70, 1);
 
 .techStack {
   width: 40vw;
-  margin: 30px 15px 30px 30px;
+  margin: 15px auto;
   background: rgba( 255, 255, 255, 0.2 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
@@ -189,7 +189,7 @@ $colorPalette2: rgba(200, 20, 70, 1);
   display: flex;
   flex-direction: column;
   width: 40vw;
-  margin: 30px 30px 30px 15px;
+  margin: 15px auto;
   background: rgba( 255, 255, 255, 0.2 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
@@ -200,7 +200,7 @@ $colorPalette2: rgba(200, 20, 70, 1);
     font-size: 48px;
     font-family: 'Gill Sans', sans-serif;
     font-weight: 500;
-    margin: 0 1vw;
+    margin: 0 auto;
     color: $textColor;
     padding: 0;
     line-height: 68px;
@@ -209,10 +209,11 @@ $colorPalette2: rgba(200, 20, 70, 1);
 
   ul {
     list-style-type: none;
-    width: 90%;
+    padding: 0 15px;
   }
 
   p {
+    margin: 20px auto;
     letter-spacing: 0.3rem;
     font-size: 20px;
     font-family: 'Gill Sans', sans-serif;

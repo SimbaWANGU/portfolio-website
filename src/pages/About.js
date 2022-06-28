@@ -2,6 +2,8 @@
 /* eslint-disable max-len */
 import React from 'react';
 import '../styles/about.scss';
+import Tooltip from '@mui/material/Tooltip';
+import Fade from '@mui/material/Fade';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import Tailwind from '../assets/tailwind.png';
@@ -57,46 +59,144 @@ function About() {
       </div>
       <div className="techStack">
         <div className="div1">
-          <img src={HTML} alt="" />
+          <Tooltip
+            title="HTML"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={HTML} alt="HTML" />
+          </Tooltip>
         </div>
         <div className="div2">
-          <img src={CSS} alt="" />
+          <Tooltip
+            title="CSS"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={CSS} alt="CSS" />
+          </Tooltip>
         </div>
         <div className="div3">
-          <img src={Bootstrap} alt="" />
+          <Tooltip
+            title="Bootstrap"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={Bootstrap} alt="Bootstrap" />
+          </Tooltip>
         </div>
         <div className="div4">
-          <img src={Tailwind} alt="" />
+          <Tooltip
+            title="Tailwind"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={Tailwind} alt="Tailwind" />
+          </Tooltip>
         </div>
         <div className="div5">
-          <img src={Sass} alt="" />
+          <Tooltip
+            title="Sass"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={Sass} alt="Sass" />
+          </Tooltip>
         </div>
         <div className="div6">
-          <img src={JavaScript} alt="" />
+          <Tooltip
+            title="JavaScript"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={JavaScript} alt="JavaScript" />
+          </Tooltip>
         </div>
         <div className="div7">
-          <img src={ReactIcon} alt="" />
+          <Tooltip
+            title="React"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={ReactIcon} alt="React" />
+          </Tooltip>
         </div>
         <div className="div8">
-          <img src={Redux} alt="" />
+          <Tooltip
+            title="Redux"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={Redux} alt="Redux" />
+          </Tooltip>
         </div>
         <div className="div9">
-          <img src={Ruby} alt="" />
+          <Tooltip
+            title="Ruby"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={Ruby} alt="Ruby" />
+          </Tooltip>
         </div>
         <div className="div10">
-          <img src={ROR} alt="" />
+          <Tooltip
+            title="Ruby on Rails"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={ROR} alt="Ruby on Rails" />
+          </Tooltip>
         </div>
         <div className="div11">
-          <img src={SQLIcon} alt="" />
+          <Tooltip
+            title="SQL"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={SQLIcon} alt="SQL" />
+          </Tooltip>
         </div>
         <div className="div12">
-          <img src={Git} alt="" />
+          <Tooltip
+            title="Resume"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={Git} alt="Git" />
+          </Tooltip>
         </div>
         <div className="div13">
-          <img src={GitHub} alt="" />
+          <Tooltip
+            title="Github"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={GitHub} alt="Github" />
+          </Tooltip>
         </div>
         <div className="div14">
-          <img src={VScode} alt="" />
+          <Tooltip
+            title="Visual Studio"
+            placement="top"
+            TransitionComponent={Fade}
+            TransitionProps={{ timeout: 600 }}
+          >
+            <img src={VScode} alt="Visual Studio" />
+          </Tooltip>
         </div>
       </div>
     </div>
