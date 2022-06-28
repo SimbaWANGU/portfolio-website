@@ -1,6 +1,6 @@
 $textColor: rgba(242, 239, 234, 1);
-$backgroundColor: rgba(5, 6, 9, .7);
-$backgroundColor1: rgba(242, 239, 234, .6);
+$backgroundColor: rgba(5, 6, 9, 0.7);
+$backgroundColor1: rgba(242, 239, 234, 0.6);
 $colorPalette1: rgba(241, 29, 91, 1);
 $colorPalette2: rgba(200, 20, 70, 1);
 
@@ -15,263 +15,120 @@ $colorPalette2: rgba(200, 20, 70, 1);
 .techStack {
   width: 40vw;
   margin: 15px auto;
-  background: rgba( 255, 255, 255, 0.2 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   display: grid;
   grid-template-columns: repeat(4, 1fr) 0fr;
   grid-template-rows: repeat(4, 1fr) 0fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
 
   .div1 {
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
+
   .div2 {
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div3 {
     grid-area: 1 / 3 / 2 / 4;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
+
   .div4 {
     grid-area: 1 / 4 / 2 / 5;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div5 {
     grid-area: 2 / 1 / 3 / 2;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div6 {
     grid-area: 2 / 2 / 3 / 3;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
+
   .div7 {
     grid-area: 2 / 3 / 3 / 4;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div8 {
     grid-area: 2 / 4 / 3 / 5;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
+
   .div9 {
     grid-area: 3 / 1 / 4 / 2;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
 
   .div10 {
     grid-area: 3 / 2 / 4 / 3;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div11 {
     grid-area: 3 / 3 / 4 / 4;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
+
   .div12 {
     grid-area: 3 / 4 / 4 / 5;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div13 {
     grid-area: 4 / 1 / 5 / 2;
     display: flex;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
+
   .div14 {
     grid-area: 4 / 2 / 5 / 3;
     display: flex;
-  
-    img {
-      height: 30%;
-      width: 30%;
-      object-fit: contain;
-      margin: auto;
-      transition: .4s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.5);
-      transition: .4s ease-in-out;
-    }
   }
+
   .div15 {
     grid-area: 4 / 3 / 5 / 4;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
   .div16 { grid-area: 4 / 4 / 5 / 5; }
+
+  img {
+    height: 30%;
+    width: 30%;
+    object-fit: contain;
+    margin: auto;
+    transition: 0.4s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.5);
+    transition: 0.4s ease-in-out;
+  }
 }
 
 .aboutMeContent {
@@ -279,11 +136,11 @@ $colorPalette2: rgba(200, 20, 70, 1);
   flex-direction: column;
   width: 40vw;
   margin: 15px auto;
-  background: rgba( 255, 255, 255, 0.2 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 
   h1 {
     font-size: 48px;
@@ -329,6 +186,7 @@ $colorPalette2: rgba(200, 20, 70, 1);
     filter: brightness(3) saturate(3);
     transform: scale(0.8, 0.8);
   }
+
   100% {
     opacity: 1;
     filter: brightness(1) saturate(1);
@@ -377,7 +235,7 @@ $colorPalette2: rgba(200, 20, 70, 1);
 }
 
 .delay-11 {
-  animation-delay: 2.0s;
+  animation-delay: 2s;
 }
 
 .delay-12 {
