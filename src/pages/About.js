@@ -198,6 +198,7 @@ function About() {
             <img src={VScode} alt="Visual Studio" />
           </Tooltip>
         </div>
+        <div className="div15" />
       </div>
     </div>
   );
