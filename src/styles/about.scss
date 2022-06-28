@@ -1,0 +1,56 @@
+$textColor: rgba(242, 239, 234, 1);
+$backgroundColor: rgba(5, 6, 9, .7);
+$backgroundColor1: rgba(242, 239, 234, .6);
+$colorPalette1: rgba(241, 29, 91, 1);
+$colorPalette2: rgba(200, 20, 70, 1);
+
+.aboutMe {
+  height: 100vh;
+  width: 100vw;
+  background-color: $colorPalette1;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutMeContent {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 30px 30px 30px 15px;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  h1 {
+    font-size: 48px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 500;
+    margin: 0 1vw;
+    color: $textColor;
+    padding: 0;
+    line-height: 68px;
+    letter-spacing: 0.3rem;
+  }
+
+  ul {
+    list-style-type: none;
+    width: 90%;
+  }
+
+  p {
+    letter-spacing: 0.3rem;
+    font-size: 20px;
+    font-family: 'Gill Sans', sans-serif;
+    background: $textColor;
+    background: linear-gradient(90deg, $backgroundColor1 0%, $textColor 50%, $backgroundColor1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.modulesDone {
+  list-style-type: georgian;
+  padding: 0;
+}
