@@ -2,9 +2,9 @@
 
 $colorPalette1: rgba(241, 29, 91, 1);
 $textColor: rgba(240, 240, 240, 1);
-$backGround: rgba(5, 6, 9, .99);
-$backGroundGradient: rgba(5, 6, 9, .8);
-$backgroundCard: rgba(150, 150, 150, .5);
+$backGround: rgba(5, 6, 9, 0.99);
+$backGroundGradient: rgba(5, 6, 9, 0.8);
+$backgroundCard: rgba(150, 150, 150, 0.5);
 
 .projects {
   display: flex;
@@ -28,7 +28,7 @@ $backgroundCard: rgba(150, 150, 150, .5);
   position: relative;
   width: 30vw;
   height: 40vh;
-  background: rgba(255,255,255,.027);
+  background: rgba(255, 255, 255, 0.027);
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(20px);
   overflow: hidden;
@@ -48,7 +48,7 @@ $backgroundCard: rgba(150, 150, 150, .5);
 }
 
 .container .card:hover {
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   transform: scale(1.05);
 }
 
