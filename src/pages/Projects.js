@@ -6,9 +6,33 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects animate">
       <div className="grid">
-        <div className="container animate">
+        <div className="container animate glow delay-1">
+          <div className="card">
+            <div className="imgBx">
+              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
+            </div>
+            <div className="contentBx">
+              <h2>Todo List</h2>
+              <div className="technology">
+                <h3>Technology:</h3>
+                <span>HTML</span>
+                <span>JS</span>
+                <span>CSS</span>
+              </div>
+              <div className="links">
+                <a href="/">
+                  <LinkIcon className="linkIcons" />
+                </a>
+                <a href="/">
+                  <GitHubIcon className="linkIcons" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container animate glow delay-3">
           <div className="card">
             <div className="imgBx">
               <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
@@ -33,7 +57,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="container animate">
+        <div className="container animate glow delay-5">
           <div className="card">
             <div className="imgBx">
               <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
@@ -58,32 +82,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="container animate">
-          <div className="card">
-            <div className="imgBx">
-              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
-            </div>
-            <div className="contentBx">
-              <h2>Todo List</h2>
-              <div className="technology">
-                <h3>Technology:</h3>
-                <span>HTML</span>
-                <span>JS</span>
-                <span>CSS</span>
-                <span>10</span>
-              </div>
-              <div className="links">
-                <a href="/">
-                  <LinkIcon className="linkIcons" />
-                </a>
-                <a href="/">
-                  <GitHubIcon className="linkIcons" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container animate">
+        <div className="container animate glow delay-7">
           <div className="card">
             <div className="imgBx">
               <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
