@@ -2,17 +2,36 @@
 
 $colorPalette1: rgba(241, 29, 91, 1);
 $textColor: rgba(240, 240, 240, 1);
+$backGround: rgba(5, 6, 9, .99);
+$backGroundGradient: rgba(5, 6, 9, .8);
+$backgroundCard: rgba(150, 150, 150, .5);
 
 .projects {
+  display: flex;
   height: 100vh;
   width: 100vw;
+  background: $backGround;
+  background: linear-gradient(270deg, $backGroundGradient 0%, $backGround 100%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10vw;
+  grid-row-gap: 10vh;
+  margin: auto auto;
 }
 
 .container .card {
+  margin: auto;
   position: relative;
-  width: 20vw;
+  width: 30vw;
   height: 40vh;
-  background: #232323;
+  background: rgba(255,255,255,.1);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0);
   overflow: hidden;
 }
 
@@ -29,7 +48,8 @@ $textColor: rgba(240, 240, 240, 1);
 }
 
 .container .card:hover::before {
-  clip-path: circle(300px at 80% -20%);
+  clip-path: circle(50px at 50% -20%);
+  transition: 1s ease-in-out;
 }
 
 .container .card::after {

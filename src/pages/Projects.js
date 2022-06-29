@@ -7,27 +7,104 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function Projects() {
   return (
     <div className="projects">
-      <div className="container">
-        <div className="card">
-          <div className="imgBx">
-            <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
-          </div>
-          <div className="contentBx">
-            <h2>Todo List</h2>
-            <div className="technology">
-              <h3>Technology:</h3>
-              <span>HTML</span>
-              <span>JS</span>
-              <span>CSS</span>
-              <span>10</span>
+      <div className="grid">
+        <div className="container animate">
+          <div className="card">
+            <div className="imgBx">
+              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
             </div>
-            <div className="links">
-              <a href="/">
-                <LinkIcon className="linkIcons" />
-              </a>
-              <a href="/">
-                <GitHubIcon className="linkIcons" />
-              </a>
+            <div className="contentBx">
+              <h2>Todo List</h2>
+              <div className="technology">
+                <h3>Technology:</h3>
+                <span>HTML</span>
+                <span>JS</span>
+                <span>CSS</span>
+                <span>10</span>
+              </div>
+              <div className="links">
+                <a href="/">
+                  <LinkIcon className="linkIcons" />
+                </a>
+                <a href="/">
+                  <GitHubIcon className="linkIcons" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container animate">
+          <div className="card">
+            <div className="imgBx">
+              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
+            </div>
+            <div className="contentBx">
+              <h2>Todo List</h2>
+              <div className="technology">
+                <h3>Technology:</h3>
+                <span>HTML</span>
+                <span>JS</span>
+                <span>CSS</span>
+                <span>10</span>
+              </div>
+              <div className="links">
+                <a href="/">
+                  <LinkIcon className="linkIcons" />
+                </a>
+                <a href="/">
+                  <GitHubIcon className="linkIcons" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container animate">
+          <div className="card">
+            <div className="imgBx">
+              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
+            </div>
+            <div className="contentBx">
+              <h2>Todo List</h2>
+              <div className="technology">
+                <h3>Technology:</h3>
+                <span>HTML</span>
+                <span>JS</span>
+                <span>CSS</span>
+                <span>10</span>
+              </div>
+              <div className="links">
+                <a href="/">
+                  <LinkIcon className="linkIcons" />
+                </a>
+                <a href="/">
+                  <GitHubIcon className="linkIcons" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container animate">
+          <div className="card">
+            <div className="imgBx">
+              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
+            </div>
+            <div className="contentBx">
+              <h2>Todo List</h2>
+              <div className="technology">
+                <h3>Technology:</h3>
+                <span>HTML</span>
+                <span>JS</span>
+                <span>CSS</span>
+                <span>10</span>
+              </div>
+              <div className="links">
+                <a href="/">
+                  <LinkIcon className="linkIcons" />
+                </a>
+                <a href="/">
+                  <GitHubIcon className="linkIcons" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
