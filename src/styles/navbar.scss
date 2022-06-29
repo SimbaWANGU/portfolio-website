@@ -41,6 +41,7 @@ $colorPalette2: rgba(241, 29, 91, 0.7);
 }
 
 .nav a {
+  width: 100%;
   border-radius: 4px;
   padding: 10px 10px;
   text-decoration: none;
@@ -62,6 +63,7 @@ $colorPalette2: rgba(241, 29, 91, 0.7);
 
 .nav a.active {
   color: $colorPalette1;
+  transform: scale(1.1);
 }
 
 .contactsList {

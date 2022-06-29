@@ -115,6 +115,7 @@ $backgroundCard: rgba(150, 150, 150, 0.5);
   padding: 0;
   line-height: 68px;
   letter-spacing: 0.3rem;
+  transition: 0.5s;
 }
 
 .container .card:hover .contentBx h2 {
