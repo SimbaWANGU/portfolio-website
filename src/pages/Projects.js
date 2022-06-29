@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/projects.scss';
 import ListSharpIcon from '@mui/icons-material/ListSharp';
+import LinkIcon from '@mui/icons-material/Link';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
   return (
@@ -8,24 +10,25 @@ function Projects() {
       <div className="container">
         <div className="card">
           <div className="imgBx">
-            <ListSharpIcon style={{ color: '#ffffff' }} />
+            <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
           </div>
           <div className="contentBx">
-            <h2>Nike Shoes</h2>
-            <div className="size">
-              <h3>Size :</h3>
-              <span>7</span>
-              <span>8</span>
-              <span>9</span>
+            <h2>Todo List</h2>
+            <div className="technology">
+              <h3>Technology:</h3>
+              <span>HTML</span>
+              <span>JS</span>
+              <span>CSS</span>
               <span>10</span>
             </div>
-            <div className="color">
-              <h3>Color :</h3>
-              <span />
-              <span />
-              <span />
+            <div className="links">
+              <a href="/">
+                <LinkIcon className="linkIcons" />
+              </a>
+              <a href="/">
+                <GitHubIcon className="linkIcons" />
+              </a>
             </div>
-            <a href="/">Buy Now</a>
           </div>
         </div>
       </div>

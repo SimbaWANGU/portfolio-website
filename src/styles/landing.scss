@@ -11,7 +11,7 @@ $gradient: rgba(255, 255, 255, 1);
   flex-direction: row;
   height: 100vh;
   width: 100vw;
-  background: rgb(255,253,253);
+  background: rgb(255, 253, 253);
   background: linear-gradient(90deg, $gradient 0%, $textColor 100%);
 }
 
