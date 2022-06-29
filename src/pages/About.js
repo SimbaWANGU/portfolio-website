@@ -170,7 +170,7 @@ function About() {
         </div>
         <div className="div12 animate glow delay-12">
           <Tooltip
-            title="Resume"
+            title="Git"
             placement="top"
             TransitionComponent={Fade}
             TransitionProps={{ timeout: 600 }}

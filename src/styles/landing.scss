@@ -3,14 +3,16 @@
 $colorPalette1: rgba(241, 29, 91, 1);
 $colorPalette2: rgba(241, 29, 91, 0.8);
 $text: rgba(2, 2, 2, 1);
-$textColor: rgba(242, 239, 234, 1);
+$textColor: rgba(210, 210, 210, 1);
+$gradient: rgba(255, 255, 255, 1);
 
 .landing {
   display: flex;
   flex-direction: row;
   height: 100vh;
   width: 100vw;
-  background-color: $textColor;
+  background: rgb(255, 253, 253);
+  background: linear-gradient(90deg, $gradient 0%, $textColor 100%);
 }
 
 .content {
