@@ -3,6 +3,8 @@
 $textColor: rgba(230, 230, 230, 1);
 $textColor1: rgba(230, 230, 230, 0.3);
 $backgroundColor: rgba(5, 6, 9, 1);
+$backGround: rgba(5, 6, 9, 0.99);
+$backGroundGradient: rgba(5, 6, 9, 0.8);
 $colorPalette1: rgba(241, 29, 91, 0.8);
 $colorPalette2: rgba(241, 29, 91, 1);
 $colorPalette3: rgba(241, 80, 120, 1);
@@ -11,8 +13,8 @@ $colorPalette3: rgba(241, 80, 120, 1);
   height: 100vh;
   width: 100vw;
   display: flex;
-  background: $backgroundColor;
-  background: linear-gradient(135deg, $backgroundColor 20%, $colorPalette3 23%, $colorPalette1 25%, $colorPalette1 77%, $textColor 80%, $textColor1 100%);
+  background: $backGround;
+  background: linear-gradient(270deg, $backGroundGradient 0%, $backGround 100%);
 }
 
 .formContainer {
@@ -21,16 +23,12 @@ $colorPalette3: rgba(241, 80, 120, 1);
   height: 70%;
   width: 70%;
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   margin: auto;
 }
 
 .preForm {
   width: 40%;
   background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
@@ -64,9 +62,7 @@ $colorPalette3: rgba(241, 80, 120, 1);
     font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.3rem;
     font-size: 24px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.2);
-    backdrop-filter: blur(6.5px);
+    background: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
   }
 
@@ -82,7 +78,6 @@ $colorPalette3: rgba(241, 80, 120, 1);
     right: 70%;
     transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     padding: 1px;
@@ -133,9 +128,7 @@ $colorPalette3: rgba(241, 80, 120, 1);
     font-family: 'Gill Sans', sans-serif;
     font-size: 24px;
     letter-spacing: 0.3rem;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.2);
-    backdrop-filter: blur(6.5px);
+    background: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
   }
 
@@ -151,7 +144,6 @@ $colorPalette3: rgba(241, 80, 120, 1);
     right: 70%;
     transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     padding: 1px;
@@ -200,9 +192,7 @@ $colorPalette3: rgba(241, 80, 120, 1);
     font-family: 'Gill Sans', sans-serif;
     font-size: 24px;
     letter-spacing: 0.3rem;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.2);
-    backdrop-filter: blur(6.5px);
+    background: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
   }
 
@@ -218,7 +208,6 @@ $colorPalette3: rgba(241, 80, 120, 1);
     right: 68%;
     transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     padding: 1px;
