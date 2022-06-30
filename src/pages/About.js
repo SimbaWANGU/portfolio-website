@@ -59,6 +59,7 @@ function About() {
         <HorizontalSplitIcon />
       </button>
       <Modal
+        className="modal animate"
         isOpen={modalIsOpen}
         contentLabel="Example Modal"
       >
