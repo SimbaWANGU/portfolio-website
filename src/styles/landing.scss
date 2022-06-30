@@ -68,6 +68,7 @@ $gradient: rgba(255, 255, 255, 1);
     box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
     -webkit-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+    transition: 0.4s ease-in;
   }
 
   button:hover {

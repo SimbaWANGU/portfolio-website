@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/gill-sans');
+
+$textColor: rgba(230, 230, 230, 1);
+$backgroundColor: rgba(5, 6, 9, 1);
+$colorPalette1: rgba(241, 29, 91, 1);
+
+.contact {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background: rgb(5,5,5);
+  background: linear-gradient(135deg, rgba(5,5,5,1) 20%, rgba(242,80,128,1) 23%, rgba(241,29,91,0.9360119047619048) 25%, rgba(185,36,80,1) 67%, rgba(245,245,245,1) 70%, rgba(53,53,53,1) 100%);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  width: 70%;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  margin: auto;
+}
+
+.preForm {
+  width: 40%;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+
+  p {
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 20px;
+  }
+}
+
+.formDiv {
+  display: flex;
+  width: 60%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}

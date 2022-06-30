@@ -6,15 +6,15 @@ import toast, { Toaster } from 'react-hot-toast';
 const ContactForm = () => {
   const form = useRef();
 
-  const YOUR_SERVICE_ID = 'service_vjo5wik';
-  const YOUR_TEMPLATE_ID = 'template_91zrc2g';
-  const YOUR_PUBLIC_KEY = '1v1OXNWm06nDvnQrD';
+  const SERVICE_ID = 'service_vjo5wik';
+  const TEMPLATE_ID = 'template_91zrc2g';
+  const PUBLIC_KEY = '1v1OXNWm06nDvnQrD';
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     toast.promise(
-      emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY), {
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY), {
         loading: 'Saving...',
         success: <b>Settings saved!</b>,
         error: <b>Could not save.</b>,
@@ -23,9 +23,9 @@ const ContactForm = () => {
   };
 
   return (
-    <>
+    <div className="formDiv">
       <Toaster />
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className="form">
         <label>Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>
@@ -34,7 +34,7 @@ const ContactForm = () => {
         <textarea name="message" />
         <input type="submit" value="Send" />
       </form>
-    </>
+    </div>
   );
 };
 
