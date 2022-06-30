@@ -1,6 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/gill-sans');
 
 $textColor: rgba(230, 230, 230, 1);
+$textColor1: rgba(230, 230, 230, .3);
 $backgroundColor: rgba(5, 6, 9, 1);
 $colorPalette1: rgba(241, 29, 91, 1);
 
@@ -9,7 +10,7 @@ $colorPalette1: rgba(241, 29, 91, 1);
   width: 100vw;
   display: flex;
   background: rgb(5,5,5);
-  background: linear-gradient(135deg, rgba(5,5,5,1) 20%, rgba(242,80,128,1) 23%, rgba(241,29,91,0.9360119047619048) 25%, rgba(185,36,80,1) 67%, rgba(245,245,245,1) 70%, rgba(53,53,53,1) 100%);
+  background: linear-gradient(135deg, rgba(5,5,5,1) 20%, rgba(242,80,128,1) 23%, rgba(241,29,91,0.9360119047619048) 25%, rgba(185,36,80,1) 77%, rgba(245,245,245,1) 80%, rgba(53,53,53,1) 100%);
 }
 
 .formContainer {
@@ -44,7 +45,202 @@ $colorPalette1: rgba(241, 29, 91, 1);
 }
 
 .form {
+  width: 60%;
   display: flex;
   flex-direction: column;
   margin: auto;
+  transition: .5s ease-in-out;
+
+  .nameInput {
+    outline: none;
+    line-height: 30px;
+    border: none;
+    margin: 5% 0;
+    text-align: center;
+    transition: .5s ease-in-out;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+  }
+
+  .nameInput::placeholder {
+    color: $textColor;
+    transition: .5s ease-in-out;
+  }
+
+  .nameInput ~ .nameInputLabel {
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    transition: .5s ease-in-out;
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    padding: 1px;
+
+    p {
+      font-family: 'Gill Sans', sans-serif;
+      letter-spacing: 0.3rem;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .nameInput:hover {
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+  }
+
+  .nameInput:hover::placeholder {
+    color: transparent;
+    transition: .5s ease-in-out;
+  }
+
+  .nameInput:hover ~ .nameInputLabel {
+    opacity: 1;
+    position: absolute;
+    right: 5%;
+    transition: .5s ease-in-out;
+  }
+
+  .nameInput:focus {
+    outline: 1px solid $colorPalette1
+  }
+
+  .nameInput:focus::placeholder {
+    color: transparent;
+    transition: .5s ease-in-out;
+  }
+
+  .emailInput {
+    outline: none;
+    line-height: 30px;
+    border: none;
+    margin: 5% 0;
+    text-align: center;
+    transition: .5s ease-in-out;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+  }
+
+  .emailInput::placeholder {
+    color: $textColor;
+    transition: .5s ease-in-out;
+  }
+
+  .emailInputLabel {
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    right: 6%;
+    transition: .5s ease-in-out;
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    padding: 1px;
+
+    p {
+      font-family: 'Gill Sans', sans-serif;
+      letter-spacing: 0.3rem;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .emailInput:hover {
+    transform: scale(1.05);
+  }
+
+  .emailInput:hover::placeholder {
+    color: transparent;
+    transition: .5s ease-in-out;
+  }
+
+  .emailInput:hover ~ .emailInputLabel {
+    opacity: 1;
+    position: absolute;
+    right: 4.5%;
+  }
+
+  .emailInput:focus {
+    outline: 1px solid $colorPalette1
+  }
+
+  .emailInput:focus::placeholder {
+    color: transparent;
+    transition: .5s ease-in-out;
+  }
+
+  .messageInput {
+    outline: none;
+    line-height: 30px;
+    border: none;
+    margin: 5% 0;
+    text-align: center;
+    transition: .5s ease-in-out;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+  }
+
+  .messageInput::placeholder {
+    color: $textColor;
+    transition: .5s ease-in-out;
+  }
+
+  .messageInput ~ .messageInputLabel {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transition: .5s ease-in-out;
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    padding: 1px;
+
+    p {
+      font-family: 'Gill Sans', sans-serif;
+      letter-spacing: 0.3rem;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .messageInput:hover {
+    transform: scale(1.05);
+  }
+
+  .messageInput:hover::placeholder {
+    color: transparent;
+    transition: .5s ease-in-out;
+  }
+
+  .messageInput:hover ~ .messageInputLabel {
+    opacity: 1;
+    position: absolute;
+    right: 1.75%;
+    top: 50%
+  }
+
+  .messageInput:focus {
+    outline: 1px solid $colorPalette1
+  }
+
+  .messageInput:focus::placeholder {
+    color: transparent;
+    transition: .5s ease-in-out;
+  }
 }
+

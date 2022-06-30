@@ -26,12 +26,18 @@ const ContactForm = () => {
     <div className="formDiv">
       <Toaster />
       <form ref={form} onSubmit={sendEmail} className="form">
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
+        <input type="text" name="user_name" placeholder="Name" className="nameInput" />
+        <span className="nameInputLabel">
+          <p>Name</p>
+        </span>
+        <input type="email" name="user_email" placeholder="Email" className="emailInput" />
+        <span className="emailInputLabel">
+          <p>Email</p>
+        </span>
+        <textarea name="message" placeholder="Message" className="messageInput" />
+        <span className="messageInputLabel">
+          <p>Message</p>
+        </span>
         <input type="submit" value="Send" />
       </form>
     </div>
