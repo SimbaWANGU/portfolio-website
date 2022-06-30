@@ -16,6 +16,7 @@ $gradient: rgba(255, 255, 255, 1);
 }
 
 .content {
+  width: 70%;
   display: flex;
   flex-direction: column;
   margin: auto 0 auto 10vw;
@@ -41,7 +42,6 @@ $gradient: rgba(255, 255, 255, 1);
   }
 
   h6 {
-    width: 50vw;
     font-size: 18px;
     line-height: 48px;
     font-family: 'Gill Sans', sans-serif;
