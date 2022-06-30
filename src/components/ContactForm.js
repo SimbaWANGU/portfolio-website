@@ -38,7 +38,7 @@ const ContactForm = () => {
         <span className="messageInputLabel">
           <p>Message</p>
         </span>
-        <input type="submit" value="Send" />
+        <button type="submit" value="Send">Submit</button>
       </form>
     </div>
   );

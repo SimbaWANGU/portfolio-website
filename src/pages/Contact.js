@@ -5,7 +5,7 @@ import '../styles/contact.scss';
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact animate">
       <div className="formContainer">
         <div className="preForm">
           <img src={Me} alt="myImage" />

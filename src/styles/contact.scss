@@ -3,7 +3,8 @@
 $textColor: rgba(230, 230, 230, 1);
 $textColor1: rgba(230, 230, 230, .3);
 $backgroundColor: rgba(5, 6, 9, 1);
-$colorPalette1: rgba(241, 29, 91, 1);
+$colorPalette1: rgba(241, 29, 91, .8);
+$colorPalette2: rgba(241, 29, 91, 1);
 
 .contact {
   height: 100vh;
@@ -36,6 +37,7 @@ $colorPalette1: rgba(241, 29, 91, 1);
     font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.3rem;
     font-size: 20px;
+    color: $textColor;
   }
 }
 
@@ -53,11 +55,14 @@ $colorPalette1: rgba(241, 29, 91, 1);
 
   .nameInput {
     outline: none;
-    line-height: 30px;
     border: none;
     margin: 5% 0;
     text-align: center;
     transition: .5s ease-in-out;
+    line-height: 34px;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 24px;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
     backdrop-filter: blur( 6.5px );
@@ -72,8 +77,8 @@ $colorPalette1: rgba(241, 29, 91, 1);
   .nameInput ~ .nameInputLabel {
     opacity: 0;
     position: absolute;
-    top: 25%;
-    right: 7%;
+    top: 22%;
+    right: 70%;
     transition: .5s ease-in-out;
     background: rgba( 255, 255, 255, 0.9 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -84,7 +89,7 @@ $colorPalette1: rgba(241, 29, 91, 1);
     p {
       font-family: 'Gill Sans', sans-serif;
       letter-spacing: 0.3rem;
-      font-size: 20px;
+      font-size: 14px;
       margin: 0;
       padding: 0;
     }
@@ -103,12 +108,13 @@ $colorPalette1: rgba(241, 29, 91, 1);
   .nameInput:hover ~ .nameInputLabel {
     opacity: 1;
     position: absolute;
-    right: 5%;
+    right: 7%;
     transition: .5s ease-in-out;
   }
 
   .nameInput:focus {
-    outline: 1px solid $colorPalette1
+    outline: 3px solid $colorPalette1;
+    border-radius: 5px;
   }
 
   .nameInput:focus::placeholder {
@@ -118,11 +124,14 @@ $colorPalette1: rgba(241, 29, 91, 1);
 
   .emailInput {
     outline: none;
-    line-height: 30px;
     border: none;
     margin: 5% 0;
     text-align: center;
     transition: .5s ease-in-out;
+    line-height: 34px;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.3rem;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
     backdrop-filter: blur( 6.5px );
@@ -137,8 +146,8 @@ $colorPalette1: rgba(241, 29, 91, 1);
   .emailInputLabel {
     opacity: 0;
     position: absolute;
-    top: 38%;
-    right: 6%;
+    top: 36%;
+    right: 70%;
     transition: .5s ease-in-out;
     background: rgba( 255, 255, 255, 0.9 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -149,7 +158,7 @@ $colorPalette1: rgba(241, 29, 91, 1);
     p {
       font-family: 'Gill Sans', sans-serif;
       letter-spacing: 0.3rem;
-      font-size: 20px;
+      font-size: 14px;
       margin: 0;
       padding: 0;
     }
@@ -167,11 +176,12 @@ $colorPalette1: rgba(241, 29, 91, 1);
   .emailInput:hover ~ .emailInputLabel {
     opacity: 1;
     position: absolute;
-    right: 4.5%;
+    right: 6%;
   }
 
   .emailInput:focus {
-    outline: 1px solid $colorPalette1
+    outline: 3px solid $colorPalette1;
+    border-radius: 5px;
   }
 
   .emailInput:focus::placeholder {
@@ -181,11 +191,14 @@ $colorPalette1: rgba(241, 29, 91, 1);
 
   .messageInput {
     outline: none;
-    line-height: 30px;
     border: none;
     margin: 5% 0;
     text-align: center;
     transition: .5s ease-in-out;
+    line-height: 34px;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.3rem;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
     backdrop-filter: blur( 6.5px );
@@ -201,7 +214,7 @@ $colorPalette1: rgba(241, 29, 91, 1);
     opacity: 0;
     position: absolute;
     top: 50%;
-    right: 4%;
+    right: 68%;
     transition: .5s ease-in-out;
     background: rgba( 255, 255, 255, 0.9 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -212,7 +225,7 @@ $colorPalette1: rgba(241, 29, 91, 1);
     p {
       font-family: 'Gill Sans', sans-serif;
       letter-spacing: 0.3rem;
-      font-size: 20px;
+      font-size: 14px;
       margin: 0;
       padding: 0;
     }
@@ -230,17 +243,44 @@ $colorPalette1: rgba(241, 29, 91, 1);
   .messageInput:hover ~ .messageInputLabel {
     opacity: 1;
     position: absolute;
-    right: 1.75%;
+    right: 3.5%;
     top: 50%
   }
 
   .messageInput:focus {
-    outline: 1px solid $colorPalette1
+    outline: 3px solid $colorPalette1;
+    border-radius: 5px;
   }
 
   .messageInput:focus::placeholder {
     color: transparent;
     transition: .5s ease-in-out;
+  }
+
+  button {
+    margin: auto 10px auto auto;
+    padding: 2%;
+    background-color: $colorPalette2;
+    border: none;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 0.3rem;
+    box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+    transition: 0.4s ease-in;
+  }
+
+  button:hover {
+    background-color: $colorPalette1;
+    transform: scale(1.05);
+    transition: 0.4s ease-out;
+  }
+
+  button:active {
+    transform: scale(0.99);
+    transition: 0.4s ease-in;
   }
 }
 
