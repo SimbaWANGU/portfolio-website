@@ -52,7 +52,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/profile"
+              to="/contactMe"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
               <ContactPageRoundedIcon className="navIcon" />
@@ -115,7 +115,7 @@ function Navbar() {
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contactme" element={<Contact />} />
+        <Route path="/contactMe" element={<Contact />} />
       </Routes>
     </>
   );
