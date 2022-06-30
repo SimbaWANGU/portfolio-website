@@ -1,17 +1,17 @@
 @import url('http://fonts.cdnfonts.com/css/gill-sans');
 
 $textColor: rgba(230, 230, 230, 1);
-$textColor1: rgba(230, 230, 230, .3);
+$textColor1: rgba(230, 230, 230, 0.3);
 $backgroundColor: rgba(5, 6, 9, 1);
-$colorPalette1: rgba(241, 29, 91, .8);
+$colorPalette1: rgba(241, 29, 91, 0.8);
 $colorPalette2: rgba(241, 29, 91, 1);
 
 .contact {
   height: 100vh;
   width: 100vw;
   display: flex;
-  background: rgb(5,5,5);
-  background: linear-gradient(135deg, rgba(5,5,5,1) 20%, rgba(242,80,128,1) 23%, rgba(241,29,91,0.9360119047619048) 25%, rgba(185,36,80,1) 77%, rgba(245,245,245,1) 80%, rgba(53,53,53,1) 100%);
+  background: rgb(5, 5, 5);
+  background: linear-gradient(135deg, rgba(5, 5, 5, 1) 20%, rgba(242, 80, 128, 1) 23%, rgba(241, 29, 91, 0.9360119047619048) 25%, rgba(185, 36, 80, 1) 77%, rgba(245, 245, 245, 1) 80%, rgba(53, 53, 53, 1) 100%);
 }
 
 .formContainer {
@@ -19,19 +19,19 @@ $colorPalette2: rgba(241, 29, 91, 1);
   flex-direction: row;
   height: 70%;
   width: 70%;
-  background: rgba( 255, 255, 255, 0.15 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   margin: auto;
 }
 
 .preForm {
   width: 40%;
-  background: rgba( 255, 255, 255, 0.2 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 10px );
-  -webkit-backdrop-filter: blur( 10px );
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
   p {
     font-family: 'Gill Sans', sans-serif;
@@ -51,27 +51,27 @@ $colorPalette2: rgba(241, 29, 91, 1);
   display: flex;
   flex-direction: column;
   margin: auto;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 
   .nameInput {
     outline: none;
     border: none;
     margin: 5% 0;
     text-align: center;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     line-height: 34px;
     font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.3rem;
     font-size: 24px;
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
-    backdrop-filter: blur( 6.5px );
-    -webkit-backdrop-filter: blur( 6.5px );
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
   }
 
   .nameInput::placeholder {
     color: $textColor;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .nameInput ~ .nameInputLabel {
@@ -79,11 +79,11 @@ $colorPalette2: rgba(241, 29, 91, 1);
     position: absolute;
     top: 22%;
     right: 70%;
-    transition: .5s ease-in-out;
-    background: rgba( 255, 255, 255, 0.9 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
+    transition: 0.5s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     padding: 1px;
 
     p {
@@ -97,19 +97,19 @@ $colorPalette2: rgba(241, 29, 91, 1);
 
   .nameInput:hover {
     transform: scale(1.05);
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .nameInput:hover::placeholder {
     color: transparent;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .nameInput:hover ~ .nameInputLabel {
     opacity: 1;
     position: absolute;
     right: 7%;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .nameInput:focus {
@@ -119,7 +119,7 @@ $colorPalette2: rgba(241, 29, 91, 1);
 
   .nameInput:focus::placeholder {
     color: transparent;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .emailInput {
@@ -127,20 +127,20 @@ $colorPalette2: rgba(241, 29, 91, 1);
     border: none;
     margin: 5% 0;
     text-align: center;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     line-height: 34px;
     font-family: 'Gill Sans', sans-serif;
     font-size: 24px;
     letter-spacing: 0.3rem;
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
-    backdrop-filter: blur( 6.5px );
-    -webkit-backdrop-filter: blur( 6.5px );
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
   }
 
   .emailInput::placeholder {
     color: $textColor;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .emailInputLabel {
@@ -148,11 +148,11 @@ $colorPalette2: rgba(241, 29, 91, 1);
     position: absolute;
     top: 36%;
     right: 70%;
-    transition: .5s ease-in-out;
-    background: rgba( 255, 255, 255, 0.9 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
+    transition: 0.5s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     padding: 1px;
 
     p {
@@ -170,7 +170,7 @@ $colorPalette2: rgba(241, 29, 91, 1);
 
   .emailInput:hover::placeholder {
     color: transparent;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .emailInput:hover ~ .emailInputLabel {
@@ -186,7 +186,7 @@ $colorPalette2: rgba(241, 29, 91, 1);
 
   .emailInput:focus::placeholder {
     color: transparent;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .messageInput {
@@ -194,20 +194,20 @@ $colorPalette2: rgba(241, 29, 91, 1);
     border: none;
     margin: 5% 0;
     text-align: center;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     line-height: 34px;
     font-family: 'Gill Sans', sans-serif;
     font-size: 24px;
     letter-spacing: 0.3rem;
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.2 );
-    backdrop-filter: blur( 6.5px );
-    -webkit-backdrop-filter: blur( 6.5px );
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
   }
 
   .messageInput::placeholder {
     color: $textColor;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .messageInput ~ .messageInputLabel {
@@ -215,11 +215,11 @@ $colorPalette2: rgba(241, 29, 91, 1);
     position: absolute;
     top: 50%;
     right: 68%;
-    transition: .5s ease-in-out;
-    background: rgba( 255, 255, 255, 0.9 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
+    transition: 0.5s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     padding: 1px;
 
     p {
@@ -237,14 +237,14 @@ $colorPalette2: rgba(241, 29, 91, 1);
 
   .messageInput:hover::placeholder {
     color: transparent;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .messageInput:hover ~ .messageInputLabel {
     opacity: 1;
     position: absolute;
     right: 3.5%;
-    top: 50%
+    top: 50%;
   }
 
   .messageInput:focus {
@@ -254,7 +254,7 @@ $colorPalette2: rgba(241, 29, 91, 1);
 
   .messageInput:focus::placeholder {
     color: transparent;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   button {
@@ -283,4 +283,3 @@ $colorPalette2: rgba(241, 29, 91, 1);
     transition: 0.4s ease-in;
   }
 }
-
