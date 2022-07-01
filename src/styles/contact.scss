@@ -100,8 +100,10 @@ $colorPalette4: rgba(241, 80, 120, .2);
     font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.3rem;
     font-size: 24px;
-    background: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(6.5px);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
+    color: $textColor;
   }
 
   .nameInput::placeholder {
@@ -170,8 +172,10 @@ $colorPalette4: rgba(241, 80, 120, .2);
     font-family: 'Gill Sans', sans-serif;
     font-size: 24px;
     letter-spacing: 0.3rem;
-    background: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(6.5px);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
+    color: $textColor;
   }
 
   .emailInput::placeholder {
@@ -240,6 +244,7 @@ $colorPalette4: rgba(241, 80, 120, .2);
     letter-spacing: 0.3rem;
     background: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
+    color: $textColor;
   }
 
   .messageInput::placeholder {
