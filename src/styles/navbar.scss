@@ -7,21 +7,20 @@ $colorPalette2: rgba(241, 29, 91, 0.7);
 
 .nav {
   display: flex;
-  width: 19vw;
-  flex-direction: column;
-  margin: 0;
-  padding: 10px 0;
-  background-color: $backgroundColor;
-  box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 10vh;
+  flex-direction: row;
+  margin: 20px 0;
+  z-index: 1;
+  background-color: transparent;
+  position: absolute;
 
   img {
-    height: 20%;
-    width: 60%;
+    height: 100%;
+    width: 10%;
     object-fit: contain;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: auto 0;
   }
 
   h2 {
@@ -32,44 +31,53 @@ $colorPalette2: rgba(241, 29, 91, 0.7);
   }
 
   .linksList {
-    margin: 0 auto;
+    margin: auto auto;
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
 .nav a {
-  width: 100%;
   border-radius: 4px;
   padding: 10px 10px;
   text-decoration: none;
   color: $colorPalette2;
   font-family: 'Gill Sans', sans-serif;
   font-size: 20px;
-  display: flex;
-  flex-direction: row;
   letter-spacing: 0.1rem;
+  transition: 0.75s ease-in-out;
+  display: flex;
+  flex-direction: column;
 
   .navIcon {
     margin: auto 10px;
   }
 
   p {
-    margin: auto 10px;
+    opacity: 0;
+    transition: 0.75s ease-in-out;
   }
 }
 
-.nav a.active {
-  color: $colorPalette1;
-  transform: scale(1.1);
+.nav a:hover {
+  margin: 0 1vw;
+  transform: scale(1.3);
+  transition: 0.5s ease-in-out;
 }
 
-.contactsList {
-  margin: auto auto;
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+.nav a.active {
+  margin: 0 3vw;
+  padding: 10px 0;
+  color: $colorPalette1;
+  transform: scale(2);
+  transition: 0.5s ease-in-out;
+
+  p {
+    opacity: 1;
+    margin: 0 auto;
+    font-size: 10px;
+    transition: 0.75s ease-in-out;
+  }
 }
