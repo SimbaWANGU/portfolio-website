@@ -4,17 +4,19 @@ $textColor: rgba(230, 230, 230, 1);
 $textColor1: rgba(230, 230, 230, 0.3);
 $backgroundColor: rgba(5, 6, 9, 1);
 $backGround: rgba(5, 6, 9, 0.99);
+$gradient1: rgba(5, 6, 9, 1);
 $backGroundGradient: rgba(5, 6, 9, 0.8);
 $colorPalette1: rgba(241, 29, 91, 0.8);
 $colorPalette2: rgba(241, 29, 91, 1);
 $colorPalette3: rgba(241, 80, 120, 1);
+$colorPalette4: rgba(241, 80, 120, .2);
 
 .contact {
   height: 100vh;
   width: 100vw;
   display: flex;
   background: $backGround;
-  background: linear-gradient(270deg, $backGroundGradient 0%, $backGround 100%);
+  background: linear-gradient(125deg, $colorPalette4 18%, $gradient1 20%, $gradient1 50%, $gradient1 80%, $colorPalette4 83%);
 }
 
 .formContainer {
@@ -22,15 +24,14 @@ $colorPalette3: rgba(241, 80, 120, 1);
   flex-direction: row;
   height: 70%;
   width: 70%;
-  background: rgba(255, 255, 255, 0.15);
   margin: auto;
 }
 
 .preForm {
   width: 40%;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
 
   p {
     font-family: 'Gill Sans', sans-serif;
@@ -43,6 +44,9 @@ $colorPalette3: rgba(241, 80, 120, 1);
 .formDiv {
   display: flex;
   width: 60%;
+  background: rgba( 5, 5, 5, .8 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
 }
 
 .form {
@@ -75,7 +79,7 @@ $colorPalette3: rgba(241, 80, 120, 1);
     opacity: 0;
     position: absolute;
     top: 22%;
-    right: 70%;
+    right: 100%;
     transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(5.5px);
@@ -104,13 +108,17 @@ $colorPalette3: rgba(241, 80, 120, 1);
   .nameInput:hover ~ .nameInputLabel {
     opacity: 1;
     position: absolute;
-    right: 7%;
+    right: 73.5%;
     transition: 0.5s ease-in-out;
+    
   }
 
   .nameInput:focus {
     outline: 3px solid $colorPalette1;
     border-radius: 5px;
+    letter-spacing: 0.01rem;
+    font-size: 18px;
+    color: $textColor;
   }
 
   .nameInput:focus::placeholder {
@@ -141,7 +149,7 @@ $colorPalette3: rgba(241, 80, 120, 1);
     opacity: 0;
     position: absolute;
     top: 36%;
-    right: 70%;
+    right: 100%;
     transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(5.5px);
@@ -169,12 +177,15 @@ $colorPalette3: rgba(241, 80, 120, 1);
   .emailInput:hover ~ .emailInputLabel {
     opacity: 1;
     position: absolute;
-    right: 6%;
+    right: 73%;
   }
 
   .emailInput:focus {
     outline: 3px solid $colorPalette1;
     border-radius: 5px;
+    letter-spacing: 0.01rem;
+    font-size: 18px;
+    color: $textColor;
   }
 
   .emailInput:focus::placeholder {
@@ -205,7 +216,7 @@ $colorPalette3: rgba(241, 80, 120, 1);
     opacity: 0;
     position: absolute;
     top: 50%;
-    right: 68%;
+    right: 100%;
     transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(5.5px);
@@ -233,13 +244,16 @@ $colorPalette3: rgba(241, 80, 120, 1);
   .messageInput:hover ~ .messageInputLabel {
     opacity: 1;
     position: absolute;
-    right: 3.5%;
+    right: 69.5%;
     top: 50%;
   }
 
   .messageInput:focus {
     outline: 3px solid $colorPalette1;
     border-radius: 5px;
+    letter-spacing: 0.01rem;
+    font-size: 18px;
+    color: $textColor;
   }
 
   .messageInput:focus::placeholder {
