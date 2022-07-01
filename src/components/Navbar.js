@@ -21,6 +21,7 @@ function Navbar() {
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
               <HomeIcon className="navIcon" />
+              <p>Home</p>
             </NavLink>
           </li>
           <li>
@@ -29,6 +30,7 @@ function Navbar() {
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
               <AssignmentIndIcon className="navIcon" />
+              <p>About</p>
             </NavLink>
           </li>
           <li>
@@ -37,6 +39,7 @@ function Navbar() {
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
               <AssignmentIcon className="navIcon" />
+              <p>Projects</p>
             </NavLink>
           </li>
           <li>
@@ -45,6 +48,7 @@ function Navbar() {
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
             >
               <ContactPageRoundedIcon className="navIcon" />
+              <p>Contact</p>
             </NavLink>
           </li>
         </ul>
