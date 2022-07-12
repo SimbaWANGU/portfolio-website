@@ -58,6 +58,7 @@ function About() {
       <button type="button" onClick={openModal}>
         <HorizontalSplitIcon />
       </button>
+      <p>Tech Stack</p>
       <Modal
         className="modal animate"
         isOpen={modalIsOpen}
