@@ -1,11 +1,19 @@
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useCallback } from 'react';
 import { NavLink } from 'react-router-dom';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import { particlesConfig as particlesOptions } from '../config/configParticles';
 import '../styles/landing.scss';
 
 function Landing() {
+  const particlesInit = useCallback((main) => {
+    loadFull(main);
+  }, []);
+
   return (
     <div className="landing animate">
+      <Particles options={particlesOptions} init={particlesInit} />
       <div className="content">
         <p>Hi, my name is</p>
         <h1>Simba</h1>
