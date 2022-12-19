@@ -1,14 +1,13 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
 const ContactForm = () => {
   const form = useRef();
-
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const messageRef = useRef();
 
   const SERVICE_ID = 'service_vjo5wik';
   const TEMPLATE_ID = 'template_91zrc2g';
@@ -24,10 +23,9 @@ const ContactForm = () => {
         error: <b>Please try again</b>,
       },
     );
-
-    setName('');
-    setEmail('');
-    setMessage('');
+    nameRef.current.value = '';
+    emailRef.current.value = '';
+    messageRef.current.value = '';
   };
 
   return (
@@ -39,8 +37,7 @@ const ContactForm = () => {
           name="user_name"
           placeholder="Name"
           className="nameInput"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          ref={nameRef}
         />
         <span className="nameInputLabel">
           <p>Name</p>
@@ -50,8 +47,7 @@ const ContactForm = () => {
           name="user_email"
           placeholder="Email"
           className="emailInput"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          ref={emailRef}
         />
         <span className="emailInputLabel">
           <p>Email</p>
@@ -60,8 +56,7 @@ const ContactForm = () => {
           name="message"
           placeholder="Message"
           className="messageInput"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          ref={messageRef}
         />
         <span className="messageInputLabel">
           <p>Message</p>

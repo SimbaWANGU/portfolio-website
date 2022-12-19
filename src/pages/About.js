@@ -25,32 +25,32 @@ function About() {
         <ul>
           <li>
             <p>
-              I am currently a student at Microverse. This is a fully remote school that trains web developers through collaboration.
+              I am currently a pationate Frontend Developer, with a keen eye for detail and love for creativity.
             </p>
           </li>
           <li>
             <p>
-              I have currently completed 3 modules that are the following:
+              I am always working to improve my knowledge base as well as try out new tech to add to my already expansive knowledge. My top three technologies are:
             </p>
           </li>
           <li>
             <p>
-              - HTML/CSS
+              - React JS
               <br />
-              - JavaScript
+              - TypeScript
               <br />
-              - React/ Redux
+              - SCSS
               <br />
             </p>
           </li>
           <li>
             <p>
-              I enjoy the process of building software, from discovering and understanding an existing problem to crafting and developing a solution.
+              With these, I can build anything my heart wishes. Beyond these, I am a quick learner and can pick up anything in a short time.
             </p>
           </li>
           <li>
             <p>
-              I am currently searching for my next role and I'm open to new opportunities
+              I am currently looking for my next role and would be interested in any kind of work.
             </p>
           </li>
         </ul>
