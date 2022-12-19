@@ -1,5 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/gill-sans');
-
 $textColor: rgba(230, 230, 230, 1);
 $textColor1: rgba(230, 230, 230, 0.3);
 $backgroundColor: rgba(5, 6, 9, 1);
@@ -49,7 +47,6 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   }
 
   p {
-    font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.3rem;
     font-size: 20px;
     color: $textColor;
@@ -117,7 +114,7 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   .nameInput ~ .nameInputLabel {
     opacity: 0;
     position: absolute;
-    top: 22%;
+    top: 19.5%;
     right: 100%;
     transition: 0.5s ease-in-out;
 
@@ -189,7 +186,7 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   .emailInputLabel {
     opacity: 0;
     position: absolute;
-    top: 36%;
+    top: 34.75%;
     right: 100%;
     transition: 0.5s ease-in-out;
 
@@ -315,6 +312,8 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
     border: none;
     color: white;
     font-weight: 100;
+    border-radius: 20px;
+    width: 30%;
     font-size: 14px;
     letter-spacing: 0.3rem;
     box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
@@ -333,5 +332,64 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   button:active {
     transform: scale(0.99);
     transition: 0.4s ease-in;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .formContainer {
+    margin-top: 45%;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .preForm {
+    width: 100%;
+
+    img {
+      height: 20vh;
+      width: 30vw;
+    }
+
+    p:nth-of-type(1),
+    p:nth-of-type(2) {
+      display: none;
+    }
+
+    p:nth-of-type(3) {
+      width: 98%;
+    }
+
+    .contactsList {
+      margin: 10px auto;
+
+      .socialMediaIcons {
+        margin: 0 3vw;
+      }
+    }
+  }
+
+  .formDiv {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+
+    button {
+      margin: 0 auto;
+      width: 35%;
+    }
+  }
+
+  .nameInput:hover ~ .nameInputLabel {
+    display: none;
+  }
+
+  .emailInput:hover ~ .emailInputLabel {
+    display: none;
+  }
+
+  .messageInput:hover ~ .messageInputLabel {
+    display: none;
   }
 }
