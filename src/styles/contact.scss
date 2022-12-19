@@ -49,7 +49,6 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   }
 
   p {
-    font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.3rem;
     font-size: 20px;
     color: $textColor;
@@ -117,7 +116,7 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   .nameInput ~ .nameInputLabel {
     opacity: 0;
     position: absolute;
-    top: 22%;
+    top: 19.5%;
     right: 100%;
     transition: 0.5s ease-in-out;
 
@@ -189,7 +188,7 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
   .emailInputLabel {
     opacity: 0;
     position: absolute;
-    top: 36%;
+    top: 34.75%;
     right: 100%;
     transition: 0.5s ease-in-out;
 
@@ -315,6 +314,8 @@ $colorPalette4: rgba(241, 80, 120, 0.2);
     border: none;
     color: white;
     font-weight: 100;
+    border-radius: 20px;
+    width: 30%;
     font-size: 14px;
     letter-spacing: 0.3rem;
     box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.35);
