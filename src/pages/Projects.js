@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/projects.scss';
 import ListSharpIcon from '@mui/icons-material/ListSharp';
-import MenuBookIcon from '@mui/icons-material/MenuBook';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
-import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LinkIcon from '@mui/icons-material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -14,21 +14,21 @@ function Projects() {
         <div className="container animate glow delay-1">
           <div className="card">
             <div className="imgBx">
-              <SportsSoccerIcon className="projectIcon" style={{ color: '#ffffff' }} />
+              <RestaurantIcon className="projectIcon" style={{ color: '#ffffff' }} />
             </div>
             <div className="contentBx">
-              <h2>Football Hub</h2>
+              <h2>Gericht Restaurant</h2>
               <div className="technology">
                 <h3>Technology:</h3>
                 <span>React</span>
-                <span>Redux</span>
+                <span>TS</span>
                 <span>SCSS</span>
               </div>
               <div className="links">
-                <a href="https://foot-y.herokuapp.com/">
+                <a href="https://restaurant-app-zeta-eight.vercel.app/">
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/capstone3">
+                <a href="https://github.com/SimbaWANGU/restaurant-app">
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
@@ -38,10 +38,10 @@ function Projects() {
         <div className="container animate glow delay-3">
           <div className="card">
             <div className="imgBx">
-              <MenuBookIcon className="projectIcon" style={{ color: '#ffffff' }} />
+              <RocketLaunchIcon className="projectIcon" style={{ color: '#ffffff' }} />
             </div>
             <div className="contentBx">
-              <h2>Bookstore</h2>
+              <h2>Space Travellers Hub</h2>
               <div className="technology">
                 <h3>Technology:</h3>
                 <span>React</span>
@@ -49,10 +49,10 @@ function Projects() {
                 <span>SCSS</span>
               </div>
               <div className="links">
-                <a href="https://bookstor-e.herokuapp.com/">
+                <a href="https://space-travelling.netlify.app/">
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/bookstore">
+                <a href="https://github.com/SimbaWANGU/space-travelers-hub">
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
@@ -92,15 +92,15 @@ function Projects() {
               <h2>Todo List</h2>
               <div className="technology">
                 <h3>Technology:</h3>
-                <span>React</span>
-                <span>SCSS</span>
                 <span>JS</span>
+                <span>HTML</span>
+                <span>CSS</span>
               </div>
               <div className="links">
-                <a href="https://t-odo.herokuapp.com/">
+                <a href="https://simbawangu.github.io/To-Do-List/">
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/react-todo">
+                <a href="https://github.com/SimbaWANGU/To-Do-List">
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
