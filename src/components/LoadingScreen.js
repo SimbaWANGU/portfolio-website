@@ -6,7 +6,7 @@ function LoadingScreen() {
   return (
     <div className="loader animate">
       <img src={Loading} alt="Loading Screen" className="icon" />
-      <p>Version: 1.1</p>
+      <p>Made with 💗</p>
     </div>
   );
 }
