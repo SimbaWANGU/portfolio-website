@@ -28,12 +28,14 @@ function Projects() {
                 <a
                   href="https://restaurant-app-zeta-eight.vercel.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <LinkIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/restaurant-app"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon className="linkIcons" />
                 </a>
@@ -58,12 +60,14 @@ function Projects() {
                 <a
                   href="https://space-travelling.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <LinkIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/space-travelers-hub"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon className="linkIcons" />
                 </a>
@@ -88,12 +92,14 @@ function Projects() {
                 <a
                   href="https://simbawangu.github.io/Kenyan-Creative---Microverse-Capstone-Project/public/index.html"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <LinkIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/Kenyan-Creative---Microverse-Capstone-Project"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon className="linkIcons" />
                 </a>
@@ -118,12 +124,14 @@ function Projects() {
                 <a
                   href="https://simbawangu.github.io/To-Do-List/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <LinkIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/To-Do-List"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon className="linkIcons" />
                 </a>
