@@ -10,7 +10,11 @@ function SocialMedia() {
   return (
     <ul className="contactsList">
       <li>
-        <a href="https://twitter.com/simb_erella">
+        <a
+          href="https://twitter.com/simb_erella"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Tooltip
             title="Twitter"
             placement="top"
@@ -22,7 +26,11 @@ function SocialMedia() {
         </a>
       </li>
       <li>
-        <a href="https://github.com/SimbaWANGU">
+        <a
+          href="https://github.com/SimbaWANGU"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Tooltip
             title="Github"
             placement="top"
@@ -34,7 +42,11 @@ function SocialMedia() {
         </a>
       </li>
       <li>
-        <a href="https://linkedin.com/in/simba-wangulu/">
+        <a
+          href="https://linkedin.com/in/simba-wangulu/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Tooltip
             title="LinkedIn"
             placement="top"
@@ -46,7 +58,11 @@ function SocialMedia() {
         </a>
       </li>
       <li>
-        <a href="https://docs.google.com/document/d/19ND9A9yW8Osz6TcR5muYF3BH1KzVT4JbTORv5y04q6M/edit?usp=sharing">
+        <a
+          href="https://docs.google.com/document/d/19ND9A9yW8Osz6TcR5muYF3BH1KzVT4JbTORv5y04q6M/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Tooltip
             title="Resume"
             placement="top"

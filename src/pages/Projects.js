@@ -25,10 +25,18 @@ function Projects() {
                 <span>SCSS</span>
               </div>
               <div className="links">
-                <a href="https://restaurant-app-zeta-eight.vercel.app/">
+                <a
+                  href="https://restaurant-app-zeta-eight.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/restaurant-app">
+                <a
+                  href="https://github.com/SimbaWANGU/restaurant-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
@@ -49,10 +57,18 @@ function Projects() {
                 <span>SCSS</span>
               </div>
               <div className="links">
-                <a href="https://space-travelling.netlify.app/">
+                <a
+                  href="https://space-travelling.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/space-travelers-hub">
+                <a
+                  href="https://github.com/SimbaWANGU/space-travelers-hub"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
@@ -73,10 +89,18 @@ function Projects() {
                 <span>JS</span>
               </div>
               <div className="links">
-                <a href="https://simbawangu.github.io/Kenyan-Creative---Microverse-Capstone-Project/public/index.html">
+                <a
+                  href="https://simbawangu.github.io/Kenyan-Creative---Microverse-Capstone-Project/public/index.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/Kenyan-Creative---Microverse-Capstone-Project">
+                <a
+                  href="https://github.com/SimbaWANGU/Kenyan-Creative---Microverse-Capstone-Project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
@@ -97,10 +121,18 @@ function Projects() {
                 <span>CSS</span>
               </div>
               <div className="links">
-                <a href="https://simbawangu.github.io/To-Do-List/">
+                <a
+                  href="https://simbawangu.github.io/To-Do-List/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <LinkIcon className="linkIcons" />
                 </a>
-                <a href="https://github.com/SimbaWANGU/To-Do-List">
+                <a
+                  href="https://github.com/SimbaWANGU/To-Do-List"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <GitHubIcon className="linkIcons" />
                 </a>
               </div>
