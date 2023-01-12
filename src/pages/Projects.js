@@ -4,7 +4,7 @@ import ListSharpIcon from '@mui/icons-material/ListSharp';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
-import LinkIcon from '@mui/icons-material/Link';
+import LaunchIcon from '@mui/icons-material/Launch';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
@@ -30,7 +30,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <LinkIcon className="linkIcons" />
+                  <LaunchIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/restaurant-app"
@@ -62,7 +62,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <LinkIcon className="linkIcons" />
+                  <LaunchIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/space-travelers-hub"
@@ -94,7 +94,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <LinkIcon className="linkIcons" />
+                  <LaunchIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/Kenyan-Creative---Microverse-Capstone-Project"
@@ -126,7 +126,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <LinkIcon className="linkIcons" />
+                  <LaunchIcon className="linkIcons" />
                 </a>
                 <a
                   href="https://github.com/SimbaWANGU/To-Do-List"
