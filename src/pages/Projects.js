@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/projects.scss';
-import ListSharpIcon from '@mui/icons-material/ListSharp';
+import TransformOutlinedIcon from '@mui/icons-material/TransformOutlined';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
@@ -17,11 +17,11 @@ function Projects() {
               <RestaurantIcon className="projectIcon" style={{ color: '#ffffff' }} />
             </div>
             <div className="contentBx">
-              <h2>Gericht Restaurant</h2>
+              <h2>Gericht</h2>
               <div className="technology">
                 <h3>Technology:</h3>
                 <span>React</span>
-                <span>TS</span>
+                <span>Node</span>
                 <span>SCSS</span>
               </div>
               <div className="links">
@@ -46,26 +46,26 @@ function Projects() {
         <div className="container animate glow delay-3">
           <div className="card">
             <div className="imgBx">
-              <RocketLaunchIcon className="projectIcon" style={{ color: '#ffffff' }} />
+              <TransformOutlinedIcon className="projectIcon" style={{ color: '#ffffff' }} />
             </div>
             <div className="contentBx">
-              <h2>Space Travellers Hub</h2>
+              <h2>Picture Perfect</h2>
               <div className="technology">
                 <h3>Technology:</h3>
                 <span>React</span>
-                <span>Redux</span>
-                <span>SCSS</span>
+                <span>Node</span>
+                <span>Express</span>
               </div>
               <div className="links">
                 <a
-                  href="https://space-travelling.netlify.app/"
+                  href="https://picture-perfect-two.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkIcon className="linkIcons" />
                 </a>
                 <a
-                  href="https://github.com/SimbaWANGU/space-travelers-hub"
+                  href="https://github.com/SimbaWANGU/my-images"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -110,26 +110,26 @@ function Projects() {
         <div className="container animate glow delay-7">
           <div className="card">
             <div className="imgBx">
-              <ListSharpIcon className="projectIcon" style={{ color: '#ffffff' }} />
+              <RocketLaunchIcon className="projectIcon" style={{ color: '#ffffff' }} />
             </div>
             <div className="contentBx">
-              <h2>Todo List</h2>
+              <h2>Space Travellers Hub</h2>
               <div className="technology">
                 <h3>Technology:</h3>
-                <span>JS</span>
-                <span>HTML</span>
-                <span>CSS</span>
+                <span>React</span>
+                <span>Redux</span>
+                <span>SCSS</span>
               </div>
               <div className="links">
                 <a
-                  href="https://simbawangu.github.io/To-Do-List/"
+                  href="https://space-travelling.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkIcon className="linkIcons" />
                 </a>
                 <a
-                  href="https://github.com/SimbaWANGU/To-Do-List"
+                  href="https://github.com/SimbaWANGU/space-travelers-hub"
                   target="_blank"
                   rel="noreferrer"
                 >
